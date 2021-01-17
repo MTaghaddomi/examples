@@ -10,7 +10,7 @@ int main()
 {
     weasel::configure(
         { { "api-key", "<YOUR API KEY>" },
-            { "api-url", "<YOUR API URL>" },
+            { "api-url", "https://getweasel.com/api/@/mydemo/test" },
             { "version", "1.0" } });
 
     if (!weasel::is_configured()) {

@@ -9,9 +9,9 @@
 int main()
 {
     weasel::configure(
-        { { "api-key", "<YOUR API KEY>" },
-            { "api-url", "<YOUR API URL>" },
-            { "version", "1.0" } });
+        { { "api-key", "d0aace33-a146-4e47-9944-28b6164afe63" },
+            { "api-url", "https://getweasel.com/api/@/mydemo/test" },
+            { "version", "2.0" } });
 
     if (!weasel::is_configured()) {
         std::cerr << weasel::configuration_error() << std::endl;

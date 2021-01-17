@@ -44,4 +44,4 @@ jobs:
           WEASEL_API_KEY: ${{ secrets.WEASEL_API_KEY }}
         run: |
           mkdir -p ./local/results
-          ./local/dist/bin/weasel_example_advanced -c ./advanced/config.json -r $(git describe --abbrev=4) --api-url https://getweasel.com/api/@/mydemo/test
+          ./local/dist/bin/weasel_example_basic -r $(git describe --abbrev=4) --api-url https://getweasel.com/api/@/mydemo/test

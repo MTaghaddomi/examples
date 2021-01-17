@@ -44,4 +44,4 @@ jobs:
           WEASEL_API_KEY: ${{ secrets.WEASEL_API_KEY }}
         run: |
           mkdir -p ./local/results
-          ./local/dist/bin/weasel_example_basic  -r $(git describe --abbrev=4)
+          ./local/dist/bin/weasel_example_basic 
